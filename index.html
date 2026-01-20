@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Phone Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui-container">
+        <h1>SmartPhone AI v2026</h1>
+        <p>Interactive 3D Preview</p>
+        <button onclick="togglePower()">Power On/Off</button>
+    </div>
+    <canvas id="phone-canvas"></canvas>
+
+    <script type="importmap">
+        { "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
